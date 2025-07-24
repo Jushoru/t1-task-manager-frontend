@@ -1,0 +1,37 @@
+header {
+  width: 100vw;
+  min-width: 100%;
+  background-color: var(--color-bg-secondary);
+  padding: var(--indent-vertical) 0;
+  display: flex;
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: var(--indent-horizontal);
+}
+
+.logoTitle {
+  font-size: var(--font-md);
+  font-weight: bold;
+  color: var(--color-bg-primary);
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--indent-vertical) var(--indent-horizontal);
+  flex: 1 1 auto;
+  overflow: auto;
+}
+
+
+h3 {
+  margin: 0;
+  font-size: var(--font-md);
+}

@@ -1,0 +1,49 @@
+
+
+.taskItemWrapper {
+    background-color: var(--color-bg-task);
+    position: relative;
+    border-radius: 6px;
+    height: min-content;
+    padding: var(--indent-vertical)
+}
+
+.taskItemWrapper:hover {
+    background-color: var(--color-bg-task-hover);
+    cursor: pointer;
+}
+
+.taskItemWrapper div h3 {
+    color: var(--color-bg-secondary);
+    margin-bottom: 4px;
+    padding-left: 0;
+}
+
+.taskDescription {
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+.chipBold {
+    font-size: 12px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footerItemsWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        margin: 0;
+        font-size: 12px;
+        color: var(--color-1);
+    }
+}
+
+.tagsWrapper {
+    display: flex;
+    gap: 8px;
+}

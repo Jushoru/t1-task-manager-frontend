@@ -1,0 +1,17 @@
+:root {
+    --color-bg-primary: #f0e8d5;
+    --color-bg-secondary: #212842;
+    --color-bg-task: #f2f2eb;
+    --color-bg-task-hover: #deded7;
+    --color-button: #6471A1;
+    --color-1: #928a97;
+    --color-2: #f85f73;
+
+    --indent-horizontal: 1.5rem;
+    --indent-vertical: 1rem;
+
+
+    --font-md: 18px;
+    --font-lg: 14px;
+    --font-sm: 12px;
+}
