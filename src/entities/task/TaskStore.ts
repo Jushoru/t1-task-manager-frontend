@@ -10,7 +10,7 @@ interface TaskState {
     getTaskById: (id: string) => Promise<TaskUi | undefined>;
 }
 
-const API_URL = 'http://localhost:3001/api/tasks';
+const API_URL = 'https://t1-task-manager-backend.onrender.com/api/tasks';
 
 export const useTaskStore = create<TaskState>((set) => ({
     tasks: [],
