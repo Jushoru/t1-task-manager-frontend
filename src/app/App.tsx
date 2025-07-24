@@ -27,7 +27,7 @@ function App() {
     <>
         <header>
             <div className="logoWrapper">
-                <img src={`${import.meta.env.BASE_URL}/logo.svg`} alt="logo" width="35"/>
+                <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="logo" width="35"/>
                 <span className="logoTitle">Тасочный менеджеритель</span>
             </div>
         </header>
